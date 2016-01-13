@@ -28,37 +28,37 @@ A inicialização do aplicativo, na plataforma Linux, será executados desta for
 onde <arquivo-entrada> corresponde ao nome de um arquivo de entrada no formato ASCII informado pelo
 usuário no terminal que conterá os objetos, conceitos e ideias da rede semântica com seus tipos de relacionamento, no seguinte formato, sendo cada linha iniciada por um caractere de controle:
 
-|---------------------------------------------------------------|
+|-------------------------------------------------------------|
 
-|# <string: linha de comentario, ignorada até o CR>             |
+|# string: linha de comentario, ignorada até o CR             |
 
-|N <inteiro: número de objetos, conceitos ou idéias>            |
+|N inteiro: número de objetos, conceitos ou idéias            |
 
-|n <natural: id> <string: nome do objeto, conceito ou idéia>    |
+|n natural: id string: nome do objeto, conceito ou idéia      |
 
-|n <natural: id> <string: nome do objeto, conceito ou idéia>    |
+|n natural: id string: nome do objeto, conceito ou idéia      |
 
-|n <natural: id> <string: nome do objeto, conceito ou idéia>    |
+|n natural: id string: nome do objeto, conceito ou idéia      |
 
-|...                                                            |
+|...                                                          |
 
-|K <inteiro: número de tipos de relacionamento>                 |
+|K inteiro: número de tipos de relacionamento                 |
 
-|k <inteiro: id> <string: nome do relacionamento>               |
+|k inteiro: id string: nome do relacionamento                 |
 
-|k <inteiro: id> <string: nome do relacionamento>               |
+|k inteiro: id string: nome do relacionamento                 |
 
-|k <inteiro: id> <string: nome do relacionamento>               |  
+|k inteiro: id string: nome do relacionamento                 |  
 
-|...                                                            |
+|...                                                          |
 
-|r <inteiro: inicial> <inteiro: final> <inteiro: tipo>          |
+|r inteiro: inicial inteiro: final inteiro: tipo              |
 
-|...                                                            |        
+|...                                                          |        
 
-|f                                                              |
+|f                                                            |
 
-|---------------------------------------------------------------|
+|-------------------------------------------------------------|
 
 onde:
 
