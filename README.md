@@ -29,29 +29,49 @@ onde <arquivo-entrada> corresponde ao nome de um arquivo de entrada no formato A
 usuário no terminal que conterá os objetos, conceitos e ideias da rede semântica com seus tipos de relacionamento, no seguinte formato, sendo cada linha iniciada por um caractere de controle:
 
 |---------------------------------------------------------------|
+
 |# <string: linha de comentario, ignorada até o CR>             |
+
 |N <inteiro: número de objetos, conceitos ou idéias>            |
+
 |n <natural: id> <string: nome do objeto, conceito ou idéia>    |
+
 |n <natural: id> <string: nome do objeto, conceito ou idéia>    |
+
 |n <natural: id> <string: nome do objeto, conceito ou idéia>    |
+
 |...                                                            |
+
 |K <inteiro: número de tipos de relacionamento>                 |
+
 |k <inteiro: id> <string: nome do relacionamento>               |
+
 |k <inteiro: id> <string: nome do relacionamento>               |
+
 |k <inteiro: id> <string: nome do relacionamento>               |  
+
 |...                                                            |
+
 |r <inteiro: inicial> <inteiro: final> <inteiro: tipo>          |
+
 |...                                                            |        
+
 |f                                                              |
+
 |---------------------------------------------------------------|
 
 onde:
 
 • N: indica o número total de nós da rede semântica
+
 • n: identifica unicamente cada nó da rede, com ID e descrição
+
 • K: indica o número total de tipos de relacionamento da rede
+
 • k: identifica unicamente cada tipo de relacionamento (arco) por meio de ID e descrição
+
 • r: cria um relacionamento na rede semântica, unindo dois nós pelos respectivos IDs segundo um tipo de relacionamento segundo ID
+
 10• f: fim de arquivo
 
 Para exemplificar, considere o exemplo apresentado na seção semantic-relation, cujo nome é rede01.txt
