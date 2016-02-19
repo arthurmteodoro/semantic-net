@@ -77,12 +77,3 @@ onde:
 10• f: fim de arquivo
 
 Para exemplificar, considere o exemplo apresentado na seção semantic-relation, cujo nome é rede01.txt
-
-
-Já <arquivo-saida> corresponde ao arquivo de saída que será gerado, cujo formato será .dot
-
-Para a execução do <arquivo-saida>, deve-se usar o seguinte comando via terminal:
-
-`user@machine$ dot -Tpdf rede.dot -o rede.pdf`
-
-Após o uso de tal comando, cujo arquivo de saida gerado pelo semantic-net corresponde ao rede.dot e o arquivo gerado em formato de grafo é rede.pdf
