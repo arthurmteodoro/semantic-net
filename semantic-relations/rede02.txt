@@ -1,0 +1,61 @@
+##########################################################################
+#                      Exemplo de Rede Semântica                         #
+# Pode ser encontrda em http://oster-lundqvist.com/karsten/?tag=ontology #
+##########################################################################
+
+# Numero de nos
+N 17
+
+# Descrição dos nos
+n 1 Pellet
+n 2 OntologyModels
+n 3 UpperOntology
+n 4 CompetencyStandards
+n 5 E*NETOntology
+n 6 API
+n 7 CompetencyDisplay
+n 8 VSRCMEditor
+n 9 RCDEditor
+n 10 ComparisonViews
+n 11 CompetencyComparison
+n 12 Synonym
+n 13 Antonym
+n 14 Meronym
+n 15 Hypernym
+n 16 Hyponym
+n 17 Holonym
+
+# Numero de tipos de relacionamentos
+
+K 7
+
+# Descricao dos tipos de relacionamentos
+k 1 ProvidesInference
+k 2 BasedOn
+k 3 ConsistsOf
+k 4 Provides
+k 5 CreatedApplication
+k 6 Extensions
+k 7 ProvidesResultsTo
+
+# Relacionando nos
+r 1 2 1
+r 2 3 2
+r 3 4 3
+r 3 5 3
+r 2 6 4
+r 6 7 5
+r 7 8 6
+r 7 9 6
+r 7 10 6
+r 6 11 5
+r 11 10 7
+r 11 12 6
+r 11 13 6
+r 11 14 6
+r 11 15 6
+r 11 16 6
+r 11 17 6
+
+#fim do arquivo
+f
