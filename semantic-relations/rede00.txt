@@ -1,0 +1,49 @@
+##########################################################################
+#          Exemplo de rede semantica, retirada da especificacao          #
+##########################################################################
+
+# Numero de nos da rede semantica
+N 12
+
+# Descricao dos nos da rede semantica
+n 1 Automovel
+n 2 Carro1
+n 3 Maria
+n 4 Motor
+n 5 Pessoa
+n 6 28Anos
+n 7 Avenida5
+n 8 ZeroKm
+n 9 Branco
+n 10 Roda
+n 11 Carroceria
+n 12 Veículo
+
+# Total de tipos de relacionamentos da rede semantica
+K 8
+
+# Descricao dos tipos de relacionamentos
+k 1 InstanciaDe
+k 2 ParteDe
+k 3 EhUm
+k 4 TemCor
+k 5 TemKm
+k 6 Estacionado
+k 7 TemDono
+k 8 TemIdade
+
+# Relacionando nós por meio de tipos de relacionamento
+r 1 12 3
+r 2 1 1
+r 2 3 7
+r 2 7 6
+r 2 8 5
+r 2 9 4
+r 3 5 1
+r 3 6 8
+r 4 1 2
+r 10 1 2
+r 11 1 2
+
+# Fim de arquivo
+f 

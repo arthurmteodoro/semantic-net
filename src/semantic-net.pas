@@ -1,6 +1,7 @@
 {
   Nome: Arthur Alexsander Martins Teodoro   Matrícula: 0022427;
-	
+	Nome: Saulo Ricardo Dias Fernandes        Matrícula: 0021581;
+  Nome: Wesley Henrique Batista Nunes       Matrícula: 0021622;
 }
 program semanticnet;
 
