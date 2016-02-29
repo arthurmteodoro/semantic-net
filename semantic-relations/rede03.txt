@@ -1,0 +1,71 @@
+﻿#REDE SEMÂNTICA
+
+# Numero de nos da rede semantica
+N 18
+
+# Descicao dos nos da rede semantica
+n 1 Batman
+n 2 Super-Homem
+n 3 Deadpool
+n 4 Robin
+n 5 Flash
+n 6 Demolidor
+n 7 Justiceiro
+n 8 Hulk
+n 9 Homem-de-Ferro
+n 10 Loki
+n 11 Capitão-América
+n 12 Homem-Aranha
+n 13 Herói
+n 14 Anti-Herói
+n 15 Vilão
+n 16 DC
+n 17 Marvel
+n 18 Vingadores
+
+# Total de tipos de relacionamento da rede semantica
+K 5
+
+# Descricao dos tipos de relacionamento
+k 1 ÉDa
+k 2 FazParteDos
+k 3 ÉUm
+k 4 ÉAliadoDo
+k 5 LutouContra
+
+# Relacionandos nós por meio de tipos de relacionamento
+r 1 16 1
+r 2 16 1
+r 4 16 1
+r 5 16 1
+r 3 17 1
+r 6 17 1
+r 7 17 1
+r 8 17 1
+r 9 17 1
+r 10 17 1
+r 11 17 1
+r 12 17 1
+r 1 13 3
+r 2 13 3
+r 4 13 3
+r 5 13 3
+r 6 13 3
+r 8 13 3
+r 11 13 3
+r 12 13 3
+r 8 18 2
+r 9 18 2
+r 11 18 2
+r 1 4 4
+r 1 2 4
+r 1 5 4
+r 1 2 5
+r 9 10 5
+r 11 9 5
+r 3 14 3
+r 7 14 3
+r 10 15 3
+    
+# Fim de arquivo
+f
