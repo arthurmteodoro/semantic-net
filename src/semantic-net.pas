@@ -269,9 +269,16 @@ end;
 
 begin
   SetLength(lookup_nos,0);
-  caminho_entrada := ParamStr(1);
-  caminho_saida := ParamStr(2);
-  EntradaArquivo(caminho_entrada);
-  Estatisticas;
-  GeraSaida(caminho_saida);    
+  if(ParamCount < 2)
+  then begin
+         writeln('Digite o nome dos arquivos de entrada e saída');
+         exit;
+       end
+  else begin
+         caminho_entrada := ParamStr(1);
+         caminho_saida := ParamStr(2);
+         EntradaArquivo(caminho_entrada);
+         Estatisticas;
+         GeraSaida(caminho_saida); 
+       end;         
 end. 
