@@ -210,7 +210,7 @@ begin
   writeln('- Number of Nodes: ',quant_nos);
   writeln('- Number of Edges: ',quant_arcos);
   //faz o calculo da densidade que é arcos/nos²
-  density := (quant_arcos/(quant_nos*quant_nos));
+  density := (quant_arcos/(quant_nos*quant_nos))*100;
   writeln('- Density:         ',density:0:2,'%');
   writeln('');
   writeln('2. By Types of Relationship');
