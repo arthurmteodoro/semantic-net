@@ -34,7 +34,7 @@ onde <arquivo-entrada> corresponde ao nome de um arquivo de entrada no formato A
 usuário no terminal que conterá os objetos, conceitos e ideias da rede semântica com seus tipos de relacionamento, no seguinte formato, sendo cada linha iniciada por um caractere de controle:
 
 
-#. string: linha de comentario, ignorada até o CR             
+<p># string: linha de comentario, ignorada até o CR</p>
 
 N inteiro: número de objetos, conceitos ou idéias            
 
